@@ -109,3 +109,6 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+.logo {
+  width: 50px;
+}
