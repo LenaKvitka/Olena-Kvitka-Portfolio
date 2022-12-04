@@ -134,3 +134,12 @@ p {
   color: black;
   font-family: "Poppins";
 }
+.contactText {
+  font-family: "Poppins";
+  font-size: 24px;
+}
+@media (max-width: 768px) {
+  .contactText {
+    font-size: 15px;
+  }
+}
