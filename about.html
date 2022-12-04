@@ -10,6 +10,12 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Rubik+Dirt&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>About Front-end Developer</title>
     <meta
@@ -20,7 +26,9 @@
   <body>
     <nav class="navbar navbar-expand-lg fixed-top bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Olena Bakhchevan</a>
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.JPEG" class="img-fluid rounded logo" />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -40,51 +48,74 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About me</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html#contact">Contact Me</a>
+              <a class="nav-link" href="about.html#contact">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
-    <h1>About me</h1>
-    <h3>Front-end developer from Odesa, Ukraine</h3>
-    <p class="about-paragraphs">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quia,
-      dignissimos nam ratione veniam quibusdam porro omnis quam vel eos eveniet
-      alias temporibus deserunt veritatis minima fugiat explicabo eum dolore.
-    </p>
     <div class="container">
       <div class="row">
-        <div class="col-sm-4">
-          <img
-            src="images/yoga.png"
-            class="img-fluid p-2 shadow rounded"
-            alt="Creation Yoga Application Germany"
-          />
+        <div class="col-md-6">
+          <h2>Hi, I am Olena Kvitka</h2>
+          <h3>🇺🇦 Ukrainian painter, based in Germany</h3>
+          <p class="about-paragraphs text-start">
+            I'm an artist and I came to Germany from Ukraine in March 2022,
+            because the war started. I was protected by the hospitable city of
+            Frankfurt-am-Main. My favorite things in life are art and painting.
+            In Ukraine I worked with children and made various artworks for
+            regional exhibitions. I work in different technologies: oil
+            painting, lacquer miniature, watercolor, acrylic painting, wall
+            painting, painting on glass. I have extensive experience in painting
+            souvenirs. I am available for possible work or mini jobs and
+            creative projects in Germany. Also you can order your own portrait
+            from photo. If you have any ideas, please write me on e-mail. I look
+            forward to any possible cooperation. I'm pleased to meet you.
+          </p>
+          <div class="navigation-links">
+            <a
+              href="index.html"
+              class="about-link border border-primary aboutLink btn btn-branding"
+              >View all project</a
+            >
+          </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-md-6">
           <img
-            src="images/weather.png"
-            class="img-fluid p-2 shadow rounded"
-            alt="Creation Weather Application Germany"
-          />
-        </div>
-        <div class="col-sm-4">
-          <img
-            src="images/yogurt.png"
-            class="img-fluid p-2 shadow rounded"
-            alt="Creation Internet-shop Application Germany"
+            src="images/Portrait3.jpg"
+            class="img-fluid rounded shadow-lg p-3 mb-5 bg-body w-75 p-3"
+            alt="Ukrainian painter"
           />
         </div>
       </div>
     </div>
+    <div class="container hero">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="d-block">Work Inquiry</h2>
+          <p class="d-block hero">
+            Let's work together and I'll help you by all my best
+          </p>
+        </div>
+        <div class="col-md-6">
+          <div class="navigation-links">
+            <a
+              href="index.html"
+              class="about-link border border-primary aboutLink btn btn-branding"
+              >Let's talk here</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
     <div id="contact" class="mt-5 text-center">
-      <h2>📮 Contact me</h2>
-      <a href="mailto:olenabakhchevan@gmail.com" class="email-link"
+      <h2></h2>
+      <a
+        href="mailto:olenabakhchevan@gmail.com"
+        class="email-link text-dark mb-3 pb-5"
         >olenabakhchevan@gmail.com</a
       >
     </div>

@@ -14,6 +14,7 @@ h2,
 h3 {
   text-align: center;
   margin: 0;
+  font-family: "Fredericka the Great", cursive;
 }
 
 h1 {
@@ -30,7 +31,7 @@ h3 {
 }
 @media (max-width: 768px) {
   h1 {
-    font-size: 40px;
+    font-size: 64px;
     text-align: center;
   }
   h2 {
@@ -53,13 +54,14 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   margin: 0px 0px 16px;
-  font-family: "Rubik Dirt", cursive;
+  font-family: "Poppins";
 }
 
 .navigation-links {
   display: flex;
   margin-top: 40px;
   justify-content: center;
+  font-family: "Poppins";
 }
 
 .navigation-links a {
@@ -68,6 +70,7 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+  font-family: "Poppins";
 }
 
 .contact-link {
@@ -75,6 +78,7 @@ p {
   box-shadow: var(--box-shadow);
   color: black;
   font-size: medium;
+  font-family: "Poppins";
 }
 .primary-link {
   border-radius: 4px;
@@ -84,21 +88,25 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: black;
+  font-family: "Poppins";
 }
 
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
   display: block;
+  font-family: "Poppins";
 }
 
 .about-paragraphs {
   display: flex;
   margin: 30px 0;
+  font-family: "Poppins";
 }
 
 .about-paragraphs p {
   margin: 10px;
+  font-family: "Poppins";
 }
 
 .email-link {
@@ -107,10 +115,12 @@ p {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  font-family: "Poppins";
 }
 
 .email-link:hover {
   text-decoration: underline;
+  font-family: "Poppins";
 }
 .logo {
   width: 50px;
@@ -122,4 +132,5 @@ p {
 .aboutLink {
   background-color: #b9e0ff;
   color: black;
+  font-family: "Poppins";
 }
