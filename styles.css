@@ -1,6 +1,7 @@
 :root {
-  --primary-color: #ffe15d;
+  --primary-color: white;
   --secondary-color: white;
+
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -37,6 +38,10 @@ h3 {
   h2 {
     font-size: 30px;
   }
+}
+.finish {
+  padding: 30px;
+  border-radius: 10px;
 }
 
 p {
@@ -80,6 +85,10 @@ p {
   font-size: medium;
   font-family: "Poppins";
 }
+.contact-link:hover {
+  color: white;
+  background-color: black;
+}
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -90,6 +99,10 @@ p {
   color: black;
   font-family: "Poppins";
 }
+.primary-link:hover {
+  color: white;
+  background-color: black;
+}
 
 .homepage-link {
   color: var(--primary-color);
@@ -97,7 +110,15 @@ p {
   display: block;
   font-family: "Poppins";
 }
-
+.about-link {
+  color: black;
+  background-color: white;
+  box-shadow: var(--box-shadow);
+}
+.about-link:hover {
+  color: white;
+  background-color: black;
+}
 .about-paragraphs {
   display: flex;
   margin: 30px 0;
@@ -116,6 +137,7 @@ p {
   font-size: 28px;
   text-decoration: none;
   font-family: "Poppins";
+  padding: 10px;
 }
 
 .email-link:hover {
@@ -130,9 +152,10 @@ p {
   padding-top: 16px 20px;
 }
 .aboutLink {
-  background-color: #b9e0ff;
+  background-color: white;
   color: black;
   font-family: "Poppins";
+  border: black;
 }
 .contactText {
   font-family: "Poppins";
@@ -142,4 +165,27 @@ p {
   .contactText {
     font-size: 15px;
   }
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+footer {
+  margin: 60px 0;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: black;
+  background-color: #faf7f0;
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: black;
 }
