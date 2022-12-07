@@ -149,8 +149,9 @@ p {
 }
 .hero {
   background-color: #faf7f0;
-  padding-top: 16px 20px;
+  padding: 30px 10px;
 }
+
 .aboutLink {
   background-color: white;
   color: black;
